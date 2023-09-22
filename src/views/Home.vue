@@ -1,5 +1,5 @@
 <template>
-  <div class="home"></div>
+  <div class="home">Mehmet Mualla Semra</div>
 </template>
 
 <script>
