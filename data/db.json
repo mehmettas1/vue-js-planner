@@ -4,13 +4,13 @@
       "id": 1,
       "title": "Deneme1",
       "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown pri",
-      "complete": true
+      "complete": false
     },
     {
       "id": 2,
       "title": "Deneme2",
       "details": "Lorem Ipsum is simply dummy  pri",
-      "complete": false
+      "complete": true
     },
     {
       "id": 3,
@@ -22,7 +22,7 @@
       "id": 4,
       "title": "Deneme4",
       "details": "Lorem Ipsum is simply dummy  pri",
-      "complete": false
+      "complete": true
     }
   ]
 }
