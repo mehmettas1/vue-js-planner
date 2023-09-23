@@ -4,8 +4,8 @@
       All
     </button>
     <button
-      @click="updateFilter('complated')"
-      :class="{ active: current === 'complated' }"
+      @click="updateFilter('completed')"
+      :class="{ active: current === 'completed' }"
     >
       Complated
     </button>
