@@ -1,5 +1,6 @@
 <template>
   <div class="home">
+    <FilterNav @filterChange="current = $event" :current="current"></FilterNav>
     <div v-if="projects.length">
       <div v-for="project in projects" :key="project.index">
         <SingleProject
@@ -13,16 +14,18 @@
 </template>
 
 <script>
+import FilterNav from "@/components/FilterNav.vue";
 import SingleProject from "@/components/SingleProject.vue";
 
 // @ is an alias to /src
 
 export default {
   name: "Home",
-  components: { SingleProject },
+  components: { SingleProject, FilterNav },
   data() {
     return {
       projects: [],
+      current: "all",
     };
   },
   methods: {
